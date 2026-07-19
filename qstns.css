@@ -1,0 +1,14 @@
+.b{
+    background-color: aqua;
+}
+h1{
+    color: blue;
+}
+#search{ 
+    color: white;
+    background-color: black;
+}
+
+*{
+    font-family: 'Courier New', Courier, monospace;
+}

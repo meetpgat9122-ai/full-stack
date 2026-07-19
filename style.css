@@ -1,0 +1,106 @@
+/* h1{
+    background-color: green;
+    color: rgb(233, 94, 35);
+    font-style: italic;
+}
+h2{
+    color: #fb1717;
+}
+button{
+    color: rgb(229, 57, 23);
+    background-color: beige;
+} */
+/* 
+h1{
+    color: orange;
+    text-decoration: line-through;
+    text-decoration-color: blue;
+    font-family: impact;
+}
+p{
+    background-color: rgb(9, 0, 0);
+    color: white;
+    line-height:16px;
+    letter-spacing: 2px;
+    font-family: verdana;
+}
+button{
+    background-color: black;
+    color: white;
+    text-decoration: line-through;
+} */
+
+
+h3,h1{
+    color: #b92b27;
+}
+#login{
+background-color:white;
+}
+#signup{
+background-color: #b92b27;
+}
+.upvote{
+    background-color: green;
+}
+.post a {
+    color: blueviolet;
+}
+.lastline a {
+    text-decoration: none;
+    color: forestgreen;
+}
+p+h3{
+    text-decoration: underline;
+}
+.upvote + button{
+    background-color: cornflowerblue;
+
+}
+div>input {
+    background-color: aqua;
+}
+input[type="text"]{
+    color: green;
+}
+input[type="password"]{
+    color: blanchedalmond;
+}
+button:hover{
+    background-color: black;
+    color: white;
+}
+ h3:hover{
+    text-decoration: none;
+    color: #44c228 ;
+    transition: 1.5s;
+ }
+ button:active{
+    background-color: #b92b27;
+
+ }
+ p:active{
+    font-weight:bold;
+    color: darkblue; 
+ }
+ input[type="radio"]:checked + label{
+    color: #e00000;
+    font-weight: bold;
+
+ }
+ .post:nth-of-type(3){
+    background-color: aquamarine;
+ }
+p::after{
+    content: "🚀";
+
+
+}
+p::before{
+    content: " 🔥";
+}
+p::selection{
+    background-color: #44c228;
+}
+
+

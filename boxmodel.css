@@ -1,0 +1,31 @@
+div{
+    height: 200px;
+    width: 900px;
+    background-color: rgb(225, 128, 103);
+    border: 40px solid gray;
+    text-align: center;
+    border-left: dashed 40px;
+    padding: 60px 60px 60px 60px;
+    margin-left: 130px ;
+    
+
+}
+.btn {
+    background: linear-gradient(45deg, #007bff, #00c6ff);
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 30px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 15px rgba(0,0,0,0.3);
+  }
+  
+  .btn:active {
+    transform: scale(0.95);
+  }
