@@ -8,10 +8,11 @@ const account =57487494
 a=32
 b=98
 console.log(a+b);
-<<<<<<< HEAD
+
 console.log("bug final commit")
-=======
-
-
 console.log("bug file creation ")
->>>>>>> bug
+
+function showage(){
+    console.log(age)
+}
+showage();
