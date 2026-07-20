@@ -20,3 +20,7 @@ function showage(){
 }
 showage();
 
+function showname(){
+    console.log(name);
+}
+showname();
