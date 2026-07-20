@@ -12,7 +12,7 @@ console.log(a+b);
 console.log("bug final commit")
 console.log("bug file creation ")
 
-function showage(){
-    console.log(age)
+function showage(val){
+    console.log(age+val)
 }
-showage();
+showage(30);
